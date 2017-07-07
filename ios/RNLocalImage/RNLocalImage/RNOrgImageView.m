@@ -29,7 +29,6 @@
     if ([_path length]) {
         UIImage *img = [[UIImage alloc]initWithContentsOfFile:_path];
         self.image = img;
-        
     }
 }
 
